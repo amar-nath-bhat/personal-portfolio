@@ -4,4 +4,4 @@ A Portfolio Webiste that includes my projects and required details.
 
 ## License
 
-Information about the license for your project.
+[LICENSE](LICENSE) Information about the license for your project.
