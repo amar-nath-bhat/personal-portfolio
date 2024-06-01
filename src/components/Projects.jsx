@@ -58,6 +58,14 @@ const Projects = () => {
       github: "https://github.com/amar-nath-bhat/react-movie-app",
       img: "project6.png",
     },
+    {
+      id: 7,
+      title: "Portfolio",
+      description:
+        "A simple portfolio website built using React.js and Tailwind CSS.",
+      link: "https://personal-portfolio-pi-two.vercel.app/",
+      github: "https://github.com/amar-nath-bhat/personal-portfolio",
+    },
     // project data
   ];
 
