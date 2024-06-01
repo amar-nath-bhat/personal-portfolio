@@ -65,6 +65,7 @@ const Projects = () => {
         "A simple portfolio website built using React.js and Tailwind CSS.",
       link: "https://personal-portfolio-pi-two.vercel.app/",
       github: "https://github.com/amar-nath-bhat/personal-portfolio",
+      img: "project7.png",
     },
     // project data
   ];
