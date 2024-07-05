@@ -1,10 +1,10 @@
 import React from "react";
 
-const ProjectCard = ({ project, index }) => {
+const ProjectCard = ({ project, key }) => {
   return (
     <a
       href={project.cardLink || project.link}
-      key={index}
+      key={key}
       className="bg-white p-6 rounded-xl flex flex-col gap-2 w-auto h-auto mx-auto border-solid border-black border-2 shadow-lg shadow-black hover:bg-gray-200 hover:scale-105 transition-all duration-300 ease-in-out"
     >
       <img

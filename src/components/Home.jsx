@@ -19,9 +19,9 @@ const Home = () => {
             Student | Developer | Engineer
           </h2>
           <div className="flex flex-col gap-2 mt-3">
-            {details.map((detail) => (
+            {details.map((detail, index) => (
               <div
-                key={detail.id}
+                key={index}
                 className="flex gap-2 items-center justify-start"
               >
                 <img src={detail.img} alt={detail.alt} className="w-6 h-6" />
@@ -31,9 +31,9 @@ const Home = () => {
           </div>
         </article>
         <article className="flex gap-10">
-          {socials.map((social) => (
+          {socials.map((social, index) => (
             <a
-              key={social.id}
+              key={index}
               href={social.link}
               className="hover:scale-125 transition-all duration-300 ease-in-out"
             >
@@ -54,10 +54,10 @@ const Home = () => {
           </span>
         </article>
         <article className="flex gap-5 flex-wrap justify-center items-center">
-          {skills.map((skill) => (
+          {skills.map((skill, index) => (
             <div
-              key={skill.id}
-              className="rounded-full bg-gray-700 p-4 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black hover:bg-gray-600"
+              key={index}
+              className="rounded-full bg-slate-800 p-4 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black hover:bg-slate-500"
             >
               <img
                 src={skill.img}
@@ -72,7 +72,7 @@ const Home = () => {
           <h1 className="text-4xl poetsen-one-regular">My Latest Projects</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {projects.slice(0, 2).map((project, index) => (
-              <ProjectCard project={project} index={index} />
+              <ProjectCard project={project} key={index} />
             ))}
           </div>
         </article>

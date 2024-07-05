@@ -52,12 +52,12 @@ export const projects = [
     img: "project2.png",
   },
   {
-    title: "Git-ACP",
+    title: "Movie House",
     description:
-      "This is a small rust code to automate the github workflow. It includes the following git commands to add files/changes to a GitHub Repository, commit the changes, and push the changes to the remote repository.",
-    link: "https://github.com/amar-nath-bhat/git-acp",
-    github: "https://github.com/amar-nath-bhat/git-acp",
-    img: "project4.png",
+      "A simple React.js Application that fetches data from OMDb and displays based on search results.",
+    link: "https://react-movie-app-orpin-five.vercel.app/",
+    github: "https://github.com/amar-nath-bhat/react-movie-app",
+    img: "project6.png",
   },
   {
     title: "Microsoft Clone",
@@ -69,11 +69,11 @@ export const projects = [
     img: "project5.png",
   },
   {
-    title: "Movie House",
+    title: "Git-ACP",
     description:
-      "A simple React.js Application that fetches data from OMDb and displays based on search results.",
-    link: "https://react-movie-app-orpin-five.vercel.app/",
-    github: "https://github.com/amar-nath-bhat/react-movie-app",
-    img: "project6.png",
+      "This is a small rust code to automate the github workflow. It includes the following git commands to add files/changes to a GitHub Repository, commit the changes, and push the changes to the remote repository.",
+    link: "https://github.com/amar-nath-bhat/git-acp",
+    github: "https://github.com/amar-nath-bhat/git-acp",
+    img: "project4.png",
   },
 ];
