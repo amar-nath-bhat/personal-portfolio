@@ -74,4 +74,19 @@ export const skills = [
     title: "Bootstrap",
     img: "bootstrap.png",
   },
+  {
+    id: 16,
+    title: "Redux",
+    img: "redux.svg",
+  },
+  {
+    id: 17,
+    title: "Canva",
+    img: "canva.svg",
+  },
+  {
+    id: 18,
+    title: "Figma",
+    img: "figma.svg",
+  },
 ];
