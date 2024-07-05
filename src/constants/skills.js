@@ -93,6 +93,6 @@ export const skills = [
   },
   {
     title: "ROS",
-    img: "ROS.svg",
+    img: "ros.svg",
   },
 ];
