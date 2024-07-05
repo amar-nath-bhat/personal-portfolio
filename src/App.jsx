@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
       <div className="min-h-screen bg-blue-300">
-        <Analytics />
         <BrowserRouter>
           <Navbar />
           <Routes>
