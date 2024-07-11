@@ -9,9 +9,9 @@ const Home = () => {
     <div className="flex flex-col md:flex-row gap-10 px-8 py-8 md:px-20 md:py-20 justify-around">
       <section className="md:w-1/5 flex flex-col gap-8 items-center">
         <img
-          src="person.jpg"
+          src={"/profile.jpeg" || "/person.jpg"}
           alt="Image"
-          className="rounded-full shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-black"
+          className="rounded-full shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-black object-cover w-48 h-48"
         />
         <article className="flex flex-col items-center justify-center">
           <h1 className="font-bold text-4xl">Amarnath Bhat</h1>
