@@ -27,6 +27,14 @@ export const projects = [
     img: "project1.png",
   },
   {
+    title: "Sole - Text Editor",
+    description:
+      "An in-terminal text editor made using Rust. Provides syntax highlighting for Rust programs, search within files, and other basic text editor functionalities.",
+    link: "https://github.com/amar-nath-bhat/sole",
+    github: "https://github.com/amar-nath-bhat/sole",
+    img: "sole.png",
+  },
+  {
     title: "Portfolio",
     description:
       "A simple portfolio website built using React.js and Tailwind CSS.",
