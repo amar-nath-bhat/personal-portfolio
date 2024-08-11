@@ -18,7 +18,7 @@ export const socials = [
     value: "Twitter",
     img: "twitter.png",
     alt: "Twitter",
-    link: "https://x.com/BhatAmarnath",
+    link: "https://x.com/amarbhat2011",
   },
   {
     id: 4,
